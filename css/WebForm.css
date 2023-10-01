@@ -1,0 +1,90 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../images/CoffeeBackground.jpg");
+  background-size: cover;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+form {
+  margin: 20px;
+}
+
+.title {
+	margin-bottom: 10px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  text-decoration: underline;
+	text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  
+}
+.details .input-box input {
+  height: 45px;
+  width: 80%;
+  outline: none;
+  font-size: 15px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 0px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
+	
+}
+.details .Button input {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  align-content: center;
+  text-align: center
+}
+
+.details .link .link1{
+   color:#3B55D0;
+}
+
+.details .link .link1:hover{
+   text-decoration: underline;
+}
+
+.message{
+	position: sticky;
+	top: 0;
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color: red;
+	padding: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 10000;
+}
+
+.message span{
+	font-size: 2rem;
+	color: white;
+}
+
+.message i{
+	cursor: pointer;
+	color: red;
+	font-size: 2.5rem;
+}
+
+.message i:hover{
+	transform: rotate(90deg)
+}
